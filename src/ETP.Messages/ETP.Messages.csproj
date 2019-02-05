@@ -10,18 +10,16 @@
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <RootNamespace>Energistics.Etp</RootNamespace>
     <AssemblyName>ETP.Messages</AssemblyName>
+    <PackageId>ETP.Core</PackageId>
     <LangVersion>7.3</LangVersion>
     <AssemblyVersion>1.6.0.0</AssemblyVersion>
     <AssemblyFileVersion>1.6.0.0</AssemblyFileVersion>
-    <AssemblyInformationalVersion>1.6.0-dev20</AssemblyInformationalVersion>
+    <Version>1.6.0-dev20</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
 
   <ItemGroup>
