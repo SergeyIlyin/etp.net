@@ -1,22 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <RootNamespace>Energistics.Etp</RootNamespace>
     <AssemblyName>ETP.Messages</AssemblyName>
-    <PackageId>ETP</PackageId>
-    <Product>Energistics Transfer Protocol</Product>
-    <Authors>Welly Tambunan, William McKenzie, Bobby Diaz</Authors>
+    <PackageId>ETP.Core</PackageId>
+    <LangVersion>7.3</LangVersion>
     <AssemblyVersion>1.6.0.0</AssemblyVersion>
-    <FileVersion>1.6.0.0</FileVersion>
-    <Version>1.6.0-dev20</Version>
-    <Company>Energistics</Company>
-    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
-    <PackageProjectUrl>https://bitbucket.org/energistics/etp.net</PackageProjectUrl>
-    <PackageIconUrl>https://bitbucket.org/account/energistics/avatar/</PackageIconUrl>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>The Energistics Transfer Protocol (ETP) is a specification for an asynchronous message-based data transfer standard used by the Energistics family data formats.</Description>
+    <AssemblyFileVersion>1.6.0.0</AssemblyFileVersion>
+    <Version>1.6.0-dev21</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,17 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Apache.Avro" Version="1.9.0-beta001" />
+    <PackageReference Include="Apache.Avro" Version="1.9.0" />
     <PackageReference Include="log4net" Version="2.0.8" />
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="..\..\License.txt">
-      <Link>License.txt</Link>
-    </Resource>
-  </ItemGroup>
 </Project>
