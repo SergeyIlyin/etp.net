@@ -14,7 +14,7 @@
     <LangVersion>7.3</LangVersion>
     <AssemblyVersion>1.6.0.0</AssemblyVersion>
     <AssemblyFileVersion>1.6.0.0</AssemblyFileVersion>
-    <Version>1.6.0-dev20</Version>
+    <Version>1.6.0-dev21</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Apache.Avro" Version="1.9.0-rc1" />
+    <PackageReference Include="Apache.Avro" Version="1.9.0" />
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
